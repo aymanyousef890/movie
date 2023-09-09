@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Aymoon</title>
+</head>
+
+<body>
+  <nav class="nav_side z-3 ">
+    <div class="blackn">
+      <ul class="animate__animated animate__fadeOutDown">
+        <li attr="nowPlaying" class="Now_playing">Now playing</li>
+        <li attr="popular" class="Popular">Popular</li>
+        <li attr="topRated" class="Top_Rated">Top Rated</li>
+        <li attr="trending" class="Trending">Trending</li>
+        <li attr="upcoming" class="Upcoming">Upcoming</li>
+        <a href="#contact" class="text-white text-decoration-none">
+          <li class="Contact">Contact Us</li>
+        </a>
+      </ul>
+      <div class="nav_footer">
+        <div class="links">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+        <div class="copy_right ">
+          Copyright Â© 2019 All Rights
+          Reserved.
+          <p>created by <a href="" class=" aymanl">Ayman yousef</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="whait">
+      <img class="w-100 pointer p-2" src="images/logo (1).png" alt="logo_img">
+      <div class="icon">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" class="toggle">
+          <div class="bars" id="bar1"></div>
+          <div class="bars" id="bar2"></div>
+          <div class="bars" id="bar3"></div>
+        </label>
+      </div>
+      <div class="footer_whait">
+        <i class="fa-solid fa-globe d-block"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="main_sec ms-5 py-5 text-white bg-black container">
+    <div class="search row justify-content-center pb-4">
+      <div class="col-md-10 mx-auto ">
+        <input id="search" type="search" placeholder="Search"
+          class="form-control w-50 mx-auto bg-transparent rounded-pill text-white shadow-none border-white px-3">
+      </div>
+    </div>
+    <section id="home" class="py-5  container">
+      <div class="row gy-4">
+
+      </div>
+    </section>
+  </div>
+  <section id="contact" class="container text-white py-5">
+    <h2>Contact US</h2>
+    <form>
+      <div class="row mt-3 mx-auto justify-content-center">
+        <div class="col-md-6">
+          <input type="text" required="" id="name" maxlength="37" class="form-control mt-4"
+            placeholder="Enter Your Name" style="border-bottom-color: rgb(206, 212, 218);">
+          <span class="error animate__animated animate__fadeOutUp"></span>
+        </div>
+        <div class="col-md-6">
+          <input type="email" required="" id="email" class="form-control mt-4" placeholder="Enter Your Email"
+            style="border-bottom-color: rgb(206, 212, 218);">
+          <span class="error animate__animated animate__fadeOutUp"></span>
+        </div>
+        <div class="col-md-6">
+          <input type="number" required="" id="phone" class="form-control mt-4" placeholder="Enter Your Phone"
+            style="border-bottom-color: rgb(206, 212, 218);">
+          <span class="error animate__animated animate__fadeOutUp"></span>
+        </div>
+        <div class="col-md-6">
+          <input type="number" required="" id="age" class="form-control mt-4" placeholder="Enter Your Age">
+          <span class="error"></span>
+        </div>
+        <div class="col-md-6 position-relative">
+          <input type="password" required="" id="password" class="form-control mt-4" placeholder="Enter Your Password">
+          <span class="error"></span>
+          <span class="showPass" style="opacity: 0; bottom: -20px;"><i data-show="show"
+              class="fa-solid fa-eye-slash"></i></span>
+        </div>
+        <div class="col-md-6">
+          <input type="password" required="" id="repassword" class="form-control mt-4" placeholder="ReEnter Password">
+          <span class="error"></span>
+        </div>
+        <div class="col-md-12  mt-4">
+          <button type="submit" class="form-btn rounded-2 mb-3 animate__animated"
+            style="cursor: pointer; user-select: none; margin-left: 0px;">Submit</button>
+        </div>
+
+      </div>
+    </form>
+  </section>
+  <div id="back-to-top" class="active"><a href="#"><i class="fa-solid fa-arrow-up-long"></i></a></div>
+
+
+
+
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
